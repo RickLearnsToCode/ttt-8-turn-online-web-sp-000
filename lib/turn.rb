@@ -19,4 +19,7 @@ def valid_move?(board, index)
 end
 
 def input_to_index(board)
-  
+  puts "Please choose a square (1-9)"
+  input = gets
+  return gets - 1
+end
