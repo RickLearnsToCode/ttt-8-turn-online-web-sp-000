@@ -21,5 +21,5 @@ end
 def input_to_index
   puts "Please choose a square (1-9)"
   input = gets
-  return gets - 1
+  return input - 1
 end
