@@ -18,8 +18,9 @@ def valid_move?(board, index)
   return index.between?(0,8) && !position_taken?
 end
 
-def input_to_index
-  puts "Please choose a square (1-9)"
-  input = gets
+def input_to_index(input)
   return input - 1
 end
+
+
+
