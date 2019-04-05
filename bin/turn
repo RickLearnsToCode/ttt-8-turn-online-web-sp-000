@@ -5,6 +5,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Wlecome to Tic Tac Toe!"
 display_board(board)
-
-
-
