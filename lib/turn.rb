@@ -21,3 +21,7 @@ end
 def input_to_index(input)
   return input - 1
 end
+
+def move(board)
+  puts "Please choose a square"
+end
