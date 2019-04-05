@@ -21,6 +21,3 @@ end
 def input_to_index(input)
   return input - 1
 end
-
-
-
